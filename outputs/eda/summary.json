@@ -1,0 +1,30 @@
+{
+  "source": "https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign",
+  "seed": 42,
+  "full_scan": true,
+  "image_scan_workers": 8,
+  "train_images": 39209,
+  "test_images": 12630,
+  "classes": 43,
+  "train_imbalance_ratio": 10.714285714285714,
+  "scanned_images": 51839,
+  "unreadable_images": 0,
+  "metadata_size_mismatches": 0,
+  "metadata_anomalies": 0,
+  "exact_duplicate_groups": 8,
+  "cross_split_duplicate_groups": 8,
+  "conflicting_label_groups": 0,
+  "candidate_train_groups": 1307,
+  "quality_thresholds": {
+    "dark_below": 40,
+    "bright_above": 215,
+    "low_contrast_below": 20
+  },
+  "versions": {
+    "python": "3.13.12",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.9",
+    "pillow": "12.2.0"
+  }
+}
